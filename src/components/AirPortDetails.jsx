@@ -26,7 +26,7 @@ const categories = [
   { name: "Option 4" },
 ];
 
-const AirPortDetails = ({ data }) => {
+const AirPortDetails = () => {
   const { id: name } = useParams();
 
   return (

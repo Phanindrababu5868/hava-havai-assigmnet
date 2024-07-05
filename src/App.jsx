@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AirPorts from "./components/AirPorts";
-import Header from "./components/Header";
-import SideBar from "./components/SideBar";
+
 import AirPortDetails from "./components/AirPortDetails";
 
 import AppLayOut from "./AppLayOut";
