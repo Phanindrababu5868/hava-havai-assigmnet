@@ -8,10 +8,12 @@ import AppLayOut from "./AppLayOut";
 const router = createBrowserRouter([
   {
     element: <AppLayOut />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
         element: <AirPorts />,
+        errorElement: <Error />,
       },
       {
         path: "/:id",
